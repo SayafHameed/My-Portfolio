@@ -3,7 +3,7 @@
         color: #4d4e53;
         min-width: 290px;
         color: #ffffff;
-        background-color: #a86666;
+        background-color: #be7070;
         font-family: "Open Sans", Arial, sans-serif;
         line-height: 1.5;
       }
@@ -142,9 +142,18 @@
         align-items: center;
         margin-top: 1em;
       }
-      #letcodelogo{
-      
+      .sociallogos{
+        width: 3em;
+        border-radius: 20px;
+        padding:10px,20px,40px,50px;
+        margin-right: 30px;
+        font-size: small;
+        /* margin-top: 2em; */
+    margin-left: 1em;
       }
+      /* .sociallogos:hover{
+        box-sizing: initial;
+      } */
       
       
       
