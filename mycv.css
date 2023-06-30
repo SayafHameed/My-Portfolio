@@ -73,7 +73,8 @@
         float: right;
         margin-left: 3px;
         margin-right: 20px;
-        margin-top: 10px;
+        /* margin-top: 10px; */
+        margin-top: -16px;
       }
       #navbar h2:hover {
         color: chartreuse;
@@ -82,17 +83,12 @@
         border: solid black 2px;
         padding: 20px;
         border-radius: 10px;
+        
       }
-      .btn{
-        width: 15em;
-        border-radius: 2em;
-        background-color: brown;
-        color: white;
+      #profilecontent{
+        width: 65%;
       }
-      .btn:hover{
-         background-color: green;
-         font-size: large;
-      }
+      
     .social{
       padding-left: 2em;
       display: inline-block;
@@ -100,7 +96,9 @@
       text-align: center;
       margin-bottom: 20px;
     }
-  
+  body{
+    max-width: 100%;
+  }
       .logo{
         width: 3em;
         border-radius: 20px;
@@ -154,6 +152,36 @@
       /* .sociallogos:hover{
         box-sizing: initial;
       } */
+      .resumedownload{
+        display: inline-block;
+    /* float: right; */
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-left: 50em;
+    border: none;
+      }
+      .btn{
+        display: inline-block;
+    /* float: right; */
+    margin-right: 30px;
+    margin-top: 10px;
+        border-radius: 25px;
+        /* background-color:black; */
+        color: yellow;
+        font-weight: bold;
+        font-size: large;
+        border: none;
+        padding: 5px;
+        margin-left: 27em;
+        background-color: black;
+      }
+      /* .resumedownload:hover{
+        background-color: green;
+      } */
+    .btn:hover{
+      background-color: green;
+      color:white;
+    }
       
       
       
