@@ -67,14 +67,16 @@
         padding: 30px;
       }
       #dp {
-        width: 300px;
+        width: 350px;
         border: solid greenyellow 3px;
-        border-radius: 50px;
+        border-radius: 25px;
         float: right;
-        margin-left: 3px;
-        margin-right: 20px;
+        /* margin-left: 3px; */
+        margin-right: 38px;
+    margin-top: 100px;
+        /* margin-right: 20px; */
         /* margin-top: 10px; */
-        margin-top: -16px;
+        /* margin-top: -16px; */
       }
       #navbar h2:hover {
         color: chartreuse;
@@ -83,10 +85,15 @@
         border: solid black 2px;
         padding: 20px;
         border-radius: 10px;
+        max-width: 140%;
+    width: 95%;
         
       }
       #profilecontent{
-        width: 65%;
+        width: 60%;
+      }
+      #profile article{
+width: 50%;
       }
       
     .social{
@@ -181,6 +188,11 @@
     .btn:hover{
       background-color: green;
       color:white;
+      cursor: pointer;
+    }
+    .projects{
+      text-decoration: none;
+      color: white;
     }
       
       
