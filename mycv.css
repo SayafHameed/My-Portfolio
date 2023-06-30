@@ -107,6 +107,8 @@
         padding:10px,20px,40px,50px;
         margin-right: 30px;
         font-size: small;
+        margin-top: 2em;
+    margin-left: 1em;
         /* text-decoration: none; */
       }
       #fblogo:hover{
@@ -122,8 +124,8 @@
         font-size: x-large;
       }
       #githublogo{
-        margin-left: 5em;
-        margin-top: 2em;
+        margin-left: 1em;
+        margin-top: 15px;
       }
       #gfglogo{
         margin-top: 15px;
@@ -135,6 +137,15 @@
       a{
         text-decoration: none;
       }
+      .codelinks{
+        display: flex;
+        align-items: center;
+        margin-top: 1em;
+      }
+      #letcodelogo{
+      
+      }
+      
       
       
       
